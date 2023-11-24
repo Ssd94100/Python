@@ -7,7 +7,6 @@ from sklearn.naive_bayes import GaussianNB
 
 
 def main():
-
     """
     Gaussian Naive Bayes Example using sklearn function.
     Iris type dataset is used to demonstrate algorithm.

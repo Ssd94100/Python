@@ -27,7 +27,6 @@ def printMaxActivities(start, finish):
 
     # Consider rest of the activities
     for j in range(n):
-
         # If this activity has start time greater than
         # or equal to the finish time of previously
         # selected activity, then select it

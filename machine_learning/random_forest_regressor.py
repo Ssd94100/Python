@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 
 
 def main():
-
     """
     Random Forest Regressor Example using sklearn function.
     Boston house price dataset is used to demonstrate the algorithm.

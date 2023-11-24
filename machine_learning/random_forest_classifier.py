@@ -7,7 +7,6 @@ from sklearn.model_selection import train_test_split
 
 
 def main():
-
     """
     Random Forest Classifier Example using sklearn function.
     Iris type dataset is used to demonstrate algorithm.

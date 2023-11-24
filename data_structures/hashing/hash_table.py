@@ -27,7 +27,6 @@ class HashTable:
         return key % self.size_table
 
     def _step_by_step(self, step_ord):
-
         print(f"step {step_ord}")
         print([i for i in range(len(self.values))])
         print(self.values)
@@ -48,7 +47,6 @@ class HashTable:
         new_key = self.hash_function(key + 1)
 
         while self.values[new_key] is not None and self.values[new_key] != key:
-
             if self.values.count(None) > 0:
                 new_key = self.hash_function(new_key + 1)
             else:

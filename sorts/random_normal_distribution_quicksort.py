@@ -19,7 +19,6 @@ def _inPlaceQuickSort(A, start, end):
 
 
 def _inPlacePartition(A, start, end):
-
     count = 0
     pivot = randint(start, end)
     temp = A[end]
@@ -27,7 +26,6 @@ def _inPlacePartition(A, start, end):
     A[pivot] = temp
     newPivotIndex = start - 1
     for index in range(start, end):
-
         count += 1
         if A[index] < A[end]:  # check if current val is less than pivot value
             newPivotIndex = newPivotIndex + 1

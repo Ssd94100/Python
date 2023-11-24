@@ -40,7 +40,6 @@ def getMid(p1, p2):
 
 
 def triangle(points, depth):
-
     myPen.up()
     myPen.goto(points[0][0], points[0][1])
     myPen.down()

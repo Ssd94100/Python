@@ -19,7 +19,6 @@ What is the sum of all semidivisible numbers not exceeding 999966663333 ?
 
 
 def fib(a, b, n):
-
     if n == 1:
         return a
     elif n == 2:

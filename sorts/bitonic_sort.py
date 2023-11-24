@@ -44,7 +44,6 @@ def sort(a, N, up):
 
 
 if __name__ == "__main__":
-
     a = []
 
     n = int(input().strip())

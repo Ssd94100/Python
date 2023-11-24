@@ -112,7 +112,6 @@ def depth_first_search(
 
     """ We iterate each column in the row to find all possible results in each row """
     for col in range(n):
-
         """
         We apply that we learned previously. First we check that in the current board
         (possible_board) there are not other same value because if there is it means

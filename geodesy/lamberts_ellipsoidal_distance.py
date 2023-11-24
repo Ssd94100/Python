@@ -6,7 +6,6 @@ from .haversine_distance import haversine_distance
 def lamberts_ellipsoidal_distance(
     lat1: float, lon1: float, lat2: float, lon2: float
 ) -> float:
-
     """
     Calculate the shortest distance along the surface of an ellipsoid between
     two points on the surface of earth given longitudes and latitudes

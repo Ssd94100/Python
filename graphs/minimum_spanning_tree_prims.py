@@ -3,7 +3,6 @@ from collections import defaultdict
 
 
 def PrimsAlgorithm(l):  # noqa: E741
-
     nodePosition = []
 
     def get_position(vertex):

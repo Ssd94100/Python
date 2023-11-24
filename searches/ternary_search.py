@@ -26,7 +26,6 @@ def ite_ternary_search(A, target):
     right = len(A) - 1
     while True:
         if left < right:
-
             if right - left < precision:
                 return lin_search(left, right, A, target)
 
@@ -53,7 +52,6 @@ def ite_ternary_search(A, target):
 # This is the recursive method of the ternary search algorithm.
 def rec_ternary_search(left, right, A, target):
     if left < right:
-
         if right - left < precision:
             return lin_search(left, right, A, target)
 

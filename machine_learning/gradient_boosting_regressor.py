@@ -12,7 +12,6 @@ from sklearn.model_selection import train_test_split
 
 
 def main():
-
     # loading the dataset from the sklearn
     df = load_boston()
     print(df.keys())

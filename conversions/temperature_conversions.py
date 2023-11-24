@@ -304,7 +304,6 @@ def rankine_to_kelvin(rankine: float, ndigits: int = 2) -> float:
 
 
 if __name__ == "__main__":
-
     import doctest
 
     doctest.testmod()
