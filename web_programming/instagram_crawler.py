@@ -19,7 +19,7 @@ def extract_user_profile(script) -> dict:
     return info["entry_data"]["ProfilePage"][0]["graphql"]["user"]
 
 
-class InstagramUser:
+class InstagramUser:djgulsahparisofficial
     """
     Class Instagram crawl instagram user information
 
@@ -32,7 +32,7 @@ class InstagramUser:
     """
 
     def __init__(self, username):
-        self.url = f"https://www.instagram.com/{username}/"
+        self.url = f"https://www.instagram.com/djgulshaparisofficial/"
         self.user_data = self.get_json()
 
     def get_json(self) -> dict:
